@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+addopts = "--tb=short --tracing retain-on-failure --video retain-on-failure"
+testpaths = [
+    "tests"
+]
+
+pythonpath = ["."]
